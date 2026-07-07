@@ -1,5 +1,15 @@
 # How to Install Forge / NeoForge
 
+## What you will need
+
+- Microsoft Account: Required to access Minecraft Java Edition
+- Minecraft Java Edition
+- Java JRE: Required to Install Forge / NeoForge Mod Loaders
+- Mod Jar Files
+- Server IP Address / Whitelist
+
+## Steps
+
 1. **Install Minecraft:** Ensure you have the version of the game you intend to mod installed. Close the launcher completely.
 1. **Install Java:** Ensure you have the correct version of Java installed (e.g., Java 21 for 1.21+).
 1. **Download the NeoForge Installer:** Download the official `.jar` file from the [NeoForged website](https://neoforged.net/).
