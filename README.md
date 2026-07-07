@@ -3,10 +3,10 @@
 ## Terminology
 
 * **Mod Loader:** A piece of software that "hooks" into the game code, allowing it to load custom modifications (mods) that change gameplay, add items, or improve performance.
-* **Installer (.jar):** A file format used by Java applications. You "run" this file to automate the process of patching your game files.
+* **Java ARchive (.jar):** A file format used by Java applications. You "run" this file to automate the process of patching your game files.
 * **Instance / Game Directory:** A separate folder where all your specific game data for a certain mod setup lives. Using unique folders prevents different mod packs from conflicting with each other.
-* **JRE (Java Runtime Environment):** The software that allows your computer to read and execute Java-based programs like the Minecraft mod installers.
-* **Profile:** A configuration setting in the Minecraft Launcher that tells the game which version and folder path to use when you click "Play."
+* **JRE (Java Runtime Environment):** The software that allows your computer to read and execute Java-based programs like the Minecraft mod installers. Minecraft Java Edition
+* **Profile / Installation:** A configuration setting in the Minecraft Launcher that tells the game which version and folder path to use when you click "Play."
 * **.minecraft Folder:** The default data directory for Minecraft. 
     * **Windows:** `%AppData%\.minecraft`
     * **macOS:** `~/Library/Application Support/minecraft`
@@ -39,6 +39,7 @@
     *   **Name:** Give it a descriptive name (e.g., `NeoForge 1.21.1`).
     *   **Version:** Select the version in the dropdown that includes `neoforge` in the title.
     *   **Game Directory:** Click **Browse** and create a unique folder inside your `.minecraft` directory (e.g., `.minecraft/instances/NeoForge_1_21_1`).
+        * `Some mods might require the installation to be located in the .minecraft folder. To use the .minecraft game directory, click here.` will help you get to that location. Some operating systems hide this folder
     *   Click **Create**. (Note: You can ignore or delete the default "NeoForge" profile created by the installer if you prefer using this custom one).
 1. **Initialize Directory:** Select your new profile from the play menu and click **Play**. Let the game load to the main menu so it can generate the required configuration files and folders, then quit the game.
 1. **Install Mods:**
@@ -46,3 +47,4 @@
     *   Locate (or create) the `mods` folder inside it.
     *   Drag and drop your desired `.jar` mod files into this folder.
 1. **Play:** Select your custom profile in the launcher and click **Play** to start the game with your mods.
+    * Check the bottom corner. You should check the version number of minecraft and neo forge. and number of mods
