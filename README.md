@@ -40,6 +40,7 @@
     *   **Version:** Select the version in the dropdown that includes `neoforge` in the title.
     *   **Game Directory:** Click **Browse** and create a unique folder inside your `.minecraft` directory (e.g., `.minecraft/instances/NeoForge_1_21_1`).
         * `Some mods might require the installation to be located in the .minecraft folder. To use the .minecraft game directory, click here.` will help you get to that location. Some operating systems hide this folder
+    *   Click **More Options**. Update the game arguments to increase RAM, here's an example good configuration: `-Xms8G -Xmx8G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:+MaxGCPauseMillis=200 -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=32M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:SurvivorRatio=8 -XX:MetaspaceSize=256m`
     *   Click **Create**. (Note: You can ignore or delete the default "NeoForge" profile created by the installer if you prefer using this custom one).
 1. **Initialize Directory:** Select your new profile from the play menu and click **Play**. Let the game load to the main menu so it can generate the required configuration files and folders, then quit the game.
 1. **Install Mods:**
